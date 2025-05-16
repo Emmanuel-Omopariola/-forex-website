@@ -1,0 +1,306 @@
+@media (min-width: 960px) {
+    header {
+        padding: 140px 0 130px;
+    }
+    .banner {
+        height: 70px;
+    }
+    .banner--clone {
+        height: 86px;
+    }
+    .banner--clone .nav-block {
+        margin-top: 15px;
+    }
+    .nav-block {
+        margin-top: 25px;
+        flex-flow: row nowrap;
+    }
+    .nav-menu li {
+        margin: 0 20px;
+    }
+    .header-top {
+        flex-flow: row nowrap;
+        justify-content: space-between;
+    }
+    .header-info {
+        width: 39%;
+        margin-top: 120px;
+    }
+    .header-boxes {
+        width: 51.3%;
+        justify-content: space-between;
+    }
+    .header-statistics {
+        flex-flow: row nowrap;
+        justify-content: space-around;
+    }
+    .statistic-block:nth-child(2) {
+        margin: 0 10px 20px 10px;
+    }
+
+    .header-icon-1 {
+        top: 173px;
+        left: 7%;
+        background: url("../img/sprite.png") 0 -112px;
+    }
+    .header-icon-2 {
+        bottom: 31px;
+        left: -100px;
+        background: url("../img/sprite.png") 0 -112px;
+    }
+    .header-icon-3 {
+        top: 210px;
+        right: 5%;
+        background: url("../img/sprite.png") -52px -112px;
+    }
+    .info-block-wrap {
+        width: 100%;
+        height: 100%;
+        min-height: 200px;
+    }
+    .info-block {
+        padding: 20px 73px 33px 40px;
+        flex-flow: row nowrap;
+    }
+    .info-block-1 {
+        margin-right: -46px;
+    }
+    .info-block-2 {
+        z-index: 10;
+        margin: 30px -46px 0 0;
+    }
+    .info-block-3 {
+        z-index: 11;
+    }
+    .info-icon-1 {
+        top: 250px;
+        left: 13%;
+        background: url("../img/sprite.png") 0 -112px;
+    }
+    .info-icon-2 {
+        top: 593px;
+        right: 116px;
+        background: url("../img/sprite.png") 0 -112px;
+    }
+    .info-icon-3 {
+        top: 119px;
+        right: 10%;
+        background: url("../img/sprite.png") -52px -112px;
+    }
+    .info-icon-4 {
+        bottom: -20px;
+        left: 17%;
+        background: url("../img/sprite.png") -52px -112px;
+    }
+    .big-x {
+        position: absolute;
+        display: block;
+        top: 38px;
+        left: -162px;
+    }
+    .big-o {
+        position: absolute;
+        display: block;
+        top: 343px;
+        right: -162px;
+    }
+    .statistic {
+        background: url("../img/statistic-bg.jpg") top center;
+        background-size: cover;
+    }
+    .order-icon-1 {
+        top: 70px;
+        left: 190px;
+        background: url("../img/sprite.png") -26px -112px;
+    }
+    .order-icon-2 {
+        top: 154px;
+        right: 164px;
+        background: url("../img/sprite.png") -78px -112px;
+    }
+    .order-icon-3 {
+        top: 820px;
+        left: 8%;
+        background: url("../img/sprite.png") -26px -112px;
+    }
+    .order-icon-4 {
+        top: 840px;
+        right: 8%;
+        background: url("../img/sprite.png") -78px -112px;
+    }
+    .order-line-1 {
+        position: absolute;
+        width: 188px;
+        height: 3px;
+        left: 5%;
+        top: 1010px;
+        background: #FFFFFF;
+    }
+    .order-line-2 {
+        position: absolute;
+        width: 188px;
+        height: 3px;
+        right: 5%;
+        top: 480px;
+        background: #FFFFFF;
+    }
+    .arrow-back {
+        position: sticky;
+        top: 100px;
+    }
+    .special-offer {
+        flex-flow: row nowrap;
+    }
+    .special-box {
+        width: 25.6%;
+        border-radius: 10px 0 0 10px;
+    }
+    .special-description {
+        width: 74.4%;
+        padding: 4% 3.6%;
+        border-radius: 0 10px 10px 0;
+    }
+    .special-btn {
+        line-height: 50px;
+    }
+    .special-buy > div {
+        font-size: 52px;
+        line-height: 57px;
+    }
+    .special-text {
+        width: 65%;
+        padding-right: 6%;
+    }
+    .special-timer {
+        width: 35%;
+        padding: 3% 0 3% 6%;
+    }
+    #popup {
+        max-width: 844px;
+        flex-flow: row nowrap;
+    }
+    .popup-left {
+        width: 35%;
+    }
+    .popup-right {
+        max-width: none;
+        width: 65%;
+        margin: 0;
+        padding: 4% 5% 4% 2%;
+    }
+    .popup-right h1 {
+        font-size: 52px;
+        line-height: 57px;
+    }
+    .popup-right p {
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .popup-right .special-buy {
+        justify-content: flex-start;
+    }
+    .popup-right .special-price {
+        margin-left: 30px;
+    }
+    .popup-timer .timer-block {
+        width: auto;
+    }
+    .popup-timer .timer-period {
+        font-size: 45px;
+    }
+    .go-to-btn {
+        width: 220px;
+    }
+    /* Black Friday */
+    /*.bf-btn-1 {
+        top: -20px;
+    }
+    .bf-block-link {
+        width: 648px;
+        height: 110px;
+        font-size: 20px;
+        line-height: 36px;
+        color: #2f2f2f;
+        background: url("../img/bf/bf-back-l.png") no-repeat;
+    }
+    .bf-info {
+        width: 378px;
+    }
+    .bf-info-cont {
+        padding: 10px 0 0;
+    }
+    .bf-info-cont strong {
+        font-size: 34px;
+        line-height: 36px;
+        text-transform: inherit;
+    }
+    .bf-info-cont span {
+        color: #fff;
+    }
+    .bf-fs {
+        width: 148px;
+        padding-top: 10px;
+    }
+    .bf-fs span {
+        width: 100px;
+        height: 64px;
+        background: url("../img/bf/bf-fs.png") no-repeat;
+    }*/
+    /* Black Friday end */
+
+    /* Christmas */
+    .bf-block-link {
+        height: 100px;
+        font-size: 18px;
+        line-height: 35px;
+    }
+    .bf-info {
+        width: 388px;
+    }
+    .christmas-tree {
+        width: 115px;
+        margin: -29px 0 0 -42px;
+    }
+    .bf-info-cont {
+        padding: 0 10px 0 65px;
+    }
+    .bf-info-cont strong {
+        font-size: 34px;
+    }
+    .bf-info-cont strong > span {
+        font-size: 50px;
+        line-height: inherit;
+    }
+    .bf-fs {
+        width: 160px;
+        align-items: flex-start;
+    }
+    .bf-fs img {
+        width: 135px;
+    }
+    /* Christmas end */
+}
+@media only screen and (max-width: 1306px) {
+    .header-vector {
+        display: none;
+    }
+}
+@media (min-width: 960px) and (max-width: 1100px)  {
+    .statistic-title {
+        margin-bottom: -21px;
+    }
+    .special-box {
+        padding: 1.7% 3.3%;
+    }
+    .special-description {
+        padding: 2% 2%;
+    }
+    .special-text {
+        width: 63%;
+        padding-right: 2%;
+    }
+    .special-timer {
+        width: 37%;
+        padding: 3% 0 3% 3%;
+    }
+}
